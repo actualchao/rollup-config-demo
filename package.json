@@ -1,0 +1,41 @@
+{
+  "name": "amap-upper",
+  "version": "0.0.0",
+  "description": "基于高德地图的业务类",
+  "main": "./dist/amapUpper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "0.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/runtime": "^7.11.2",
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "babel-eslint": "^10.1.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^6.8.0",
+    "eslint-config-elemefe": "0.1.1",
+    "eslint-plugin-import": "^2.19.1",
+    "rollup": "^1.32.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-require-context": "^1.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
